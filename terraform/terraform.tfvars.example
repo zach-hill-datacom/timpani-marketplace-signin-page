@@ -1,0 +1,32 @@
+# AWS Region
+aws_region = "us-east-1"
+
+# S3 Bucket Configuration
+website_s3_bucket_name = "timpani-login-page-bucket"
+
+# DynamoDB Table Names
+new_subscribers_table_name = "AWSMarketplaceSubscribers"
+aws_marketplace_metering_records_table_name = "AWSMarketplaceMeteringRecords"
+
+# SaaS Listing Configuration
+type_of_saas_listing = "contracts_with_subscription"
+
+# SNS Configuration
+sns_account_id = "381492046924"
+sns_region = "us-east-1"
+
+# AWS Marketplace Product Configuration
+product_id = "your-product-id-here"
+marketplace_tech_admin_email = "admin@yourcompany.com"
+marketplace_seller_email = "seller@yourcompany.com"
+
+# Cross Account Configuration
+create_cross_account_role = false
+cross_account_id = ""
+cross_account_role_name = ""
+
+# Web Page Configuration
+create_registration_web_page = true
+
+# Fulfillment URL Configuration
+update_fulfillment_url = false
